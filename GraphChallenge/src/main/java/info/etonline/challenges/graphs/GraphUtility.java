@@ -1,6 +1,7 @@
 package info.etonline.challenges.graphs;
 
 import info.etonline.challenges.graphs.node.GNode;
+import info.etonline.challenges.graphs.node.GraphNode;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -41,4 +42,23 @@ public class GraphUtility {
         }
         return allPaths;
     }
+
+    public static void main(String args[]) {
+        GraphNode node = new GraphNode("A", new GraphNode[] {
+                new GraphNode("B", new GraphNode[] {new GraphNode("E"), new GraphNode("F")}),
+                new GraphNode("C", new GraphNode[] {new GraphNode("G"), new GraphNode("H"), new GraphNode("I")}),
+                new GraphNode("D", new GraphNode[] {new GraphNode("J")})
+        });
+
+        GraphUtility graphUtility = new GraphUtility();
+
+        System.out.print("WalkGraph: ");
+        ArrayList list = graphUtility.walkGraph(node);
+        System.out.println(list);
+
+        System.out.print("Path: ");
+        list = graphUtility.path(node);
+        System.out.println(list);
+    }
 }
+

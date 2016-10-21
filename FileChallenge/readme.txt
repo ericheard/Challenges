@@ -10,3 +10,5 @@ Included is one example text file called input.txt.
 
 This Scala application will prompt for a filename, if run from project root folder no path is needed for input.txt
 
+NOTE: The Intellij project is use a Global configured Scala library: File > Project Structure > Platform Settings > Global Libraries
+

@@ -9,4 +9,19 @@ To build and run test from command line use Maven commands:
 - mvn compile
 - mvn test
 
+After building, you can run from a command line using run.bat in the project root.
 
+This main will run a single pass of both functions using a simple graph:
+	
+  A
+     B
+       E
+       F
+     C
+       G
+       H
+       I
+     D
+       J
+
+NOTE: If your Intellij isn't configured to auto-refresh pom.xml files a reimport may be required. 
