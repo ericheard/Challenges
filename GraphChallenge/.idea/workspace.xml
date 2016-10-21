@@ -100,6 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,12 +236,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="RunManager" selected="JUnit.All in graphs (2)">
+  <component name="RunManager" selected="JUnit.All in graphs (3)">
     <configuration default="false" name="All in graphs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="graphs" />
@@ -303,6 +303,27 @@
       <method />
     </configuration>
     <configuration default="false" name="All in graphs (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="graphs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in graphs (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="graphs" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -612,18 +633,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in graphs" />
       <item index="1" class="java.lang.String" itemvalue="Application.WordCount" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.All in graphs (1)" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.All in graphs (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in graphs (3)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in graphs (2)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in graphs (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WordCount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in graphs" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in graphs (3)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in graphs (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in graphs (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WordCount" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in graphs" />
       </list>
     </recent_temporary>
   </component>
@@ -657,6 +680,9 @@
     </history-entry>
     <history-entry file="All_in_graphs_(2) - 2016.10.21 at 16h 32m 16s.xml">
       <configuration name="All in graphs (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_graphs_(3) - 2016.10.21 at 16h 54m 48s.xml">
+      <configuration name="All in graphs (3)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -709,6 +735,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/etonline/challenges/graphs/GraphUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/etonline/challenges/graphs/GraphUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
