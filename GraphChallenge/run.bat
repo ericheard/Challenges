@@ -1,1 +1,1 @@
-java  -classpath "C:\mydev\Challenges\GraphChallenge\target\classes" info.etonline.challenges.graphs.GraphUtility
+java  -classpath ".\target\classes" info.etonline.challenges.graphs.GraphUtility
