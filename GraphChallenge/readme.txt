@@ -6,10 +6,10 @@ There is no main for this methods, just a collection of unit test.
 	
 To build and run test from command line use Maven commands:
 
-- mvn compile
-- mvn test
+- mvn compile  or   build.cmd
+- mvn test  or   test.cmd
 
-After building, you can run from a command line using run.bat in the project root.
+After building, you can run from a command line using run.cmd in the project root.
 
 This main will run a single pass of both functions using a simple graph:
 	
