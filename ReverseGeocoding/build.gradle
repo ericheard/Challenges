@@ -14,3 +14,15 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web:1.4.1.RELEASE")
     compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
 }
+
+buildscript {
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.1.RELEASE")
+    }
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'spring-boot'
